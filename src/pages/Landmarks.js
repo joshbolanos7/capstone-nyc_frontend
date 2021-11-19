@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { getLandmarks } from "../services/lankmarkService";
+import { getLandmarks } from "../services/landmarkService";
 
 export default function Landmarks(props) {
     const [landmark, setLandmarks] = useState(null);
@@ -21,9 +21,9 @@ export default function Landmarks(props) {
                             <div key={land.id}>
                                 <div className='land background'>
                                     <Link to={`/landmarks/${land.id}`}>
-                                        <div className='landImgThumb' >
+                                        {/* <div className='landImgThumb' >
                                             <img src={land.photo_url} />
-                                        </div>
+                                        </div> */}
 
                                         <div>
                                             <h1>
@@ -32,7 +32,7 @@ export default function Landmarks(props) {
                                         </div>
                                     </Link>
                                     <div>
-                                        <p>{land.description}</p>
+                                        {/* <p>{land.description}</p> */}
                                     </div>
                                 </div>
                             </div>

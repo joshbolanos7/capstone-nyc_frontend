@@ -1,4 +1,4 @@
-const URL = 'https://sleepy-brook-05051.herokuapp.com/landmarks/'
+const URL = 'https://sleepy-brook-05051.herokuapp.com/landmarks'
 
 const getLandmarks = async () => {
     const response = await fetch(URL);
@@ -7,7 +7,7 @@ const getLandmarks = async () => {
     return (ret);
 }
 
-const getOneLandmark = async (id) => {
+const getOneLandmarks = async (id) => {
     const response = await fetch(URL+'/'+id);
     const data = await response.json();
     const ret = await data;
@@ -16,5 +16,5 @@ const getOneLandmark = async (id) => {
 
 export { 
     getLandmarks,
-    getOneLandmark,
+    getOneLandmarks,
 }
