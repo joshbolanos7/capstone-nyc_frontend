@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { useNavigate } from "react-router";
-// import { getOneLandmark } from "../services/landmarkService";
+import { getOneLandmark } from "../services/landmarkService";
 
 export default function Show(props){
 
@@ -9,11 +9,11 @@ export default function Show(props){
     const params = useParams();
     const nav = useNavigate();
 
-    // async function updateLandmark() { 
-    //     setLandmark(await getOneLandmark(params.id));
-    // }
+    async function updateLandmark() { 
+        setLandmark(await getOneLandmark(params.id));
+    }
 
-    // useEffect(() => updateLandmark(), []);
+    useEffect(() => updateLandmark(), []);
 
     const loaded = () => {
         return ( 
