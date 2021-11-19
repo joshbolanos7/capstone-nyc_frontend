@@ -1,0 +1,22 @@
+a { 
+    text-decoration: none;
+    color: #3f71ae;
+}
+
+nav { 
+    display: flex; 
+    justify-content: space-between;
+    border: solid 1px #3f71ae;
+    font-size: 20px;
+
+
+    .navLeft, .navRight { 
+        display: flex; 
+        justify-content: center;
+        align-content: center;
+    }
+
+    .navRight{
+        margin-right: 10px;
+    }
+}
