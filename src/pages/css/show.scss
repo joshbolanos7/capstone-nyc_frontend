@@ -1,0 +1,23 @@
+.landmarkShow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 100px;
+
+    .showLeft{
+        border: solid 1px red;
+        margin: 5px; 
+        padding: 3px;
+        
+
+    }
+
+    .showRight{
+        display: flex; 
+        flex-direction: column;
+        margin: 5px; 
+        padding: 3px; 
+
+    }
+
+}

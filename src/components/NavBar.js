@@ -14,6 +14,11 @@ export default function NavBar() {
                     <h1>NYC Landmarks</h1>
                 </Link>
             </div>
+            <div className='navRight'>
+                <Link to='/transportation'>
+                    <h1>Transportation</h1>
+                </Link>
+            </div>
         </nav>
     )
 }

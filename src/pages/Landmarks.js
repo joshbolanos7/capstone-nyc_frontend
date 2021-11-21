@@ -29,6 +29,7 @@ export default function Landmarks(props) {
                                             <h1>
                                                 {land.name}
                                             </h1>
+                                            <h3>{land.type}</h3>
                                         </div>
                                     </Link>
                                     <div>

@@ -4,6 +4,8 @@ import { useNavigate } from "react-router";
 
 import { getOneLandmarks } from "../services/landmarkService";
 
+import './css/show.scss'
+
 export default function Show(props) {
     const [landmark, setLandmarks] = useState(null);
     const params = useParams();
