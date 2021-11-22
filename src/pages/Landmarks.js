@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getLandmarks } from "../services/landmarkService";
 
+import './css/landmark.scss';
+
+
 export default function Landmarks(props) {
     const [landmark, setLandmarks] = useState(null);
 
@@ -15,7 +18,7 @@ export default function Landmarks(props) {
         return (
             <div>
                 <div className='landmarks'>
-                 <h1>this is the landmarks page </h1>
+                 <h1>this is the landmarks page (click any of the landmarks below)</h1>
                     {landmark.map((land, i) => {
                         return (
                             <div key={land.id}>
@@ -25,7 +28,7 @@ export default function Landmarks(props) {
                                             <img src={land.photo_url} />
                                         </div> */}
 
-                                        <div>
+                                        <div className='land-display'>
                                             <h1>
                                                 {land.name}
                                             </h1>

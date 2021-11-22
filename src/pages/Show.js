@@ -41,6 +41,10 @@ export default function Show(props) {
                             <p>{landmark.description}</p>
                         </div>
                     </div>
+                    
+                    {/* <div className='maps-btn'>
+                        <button onClick="window.location.href='https://maps.google.com';">Open In Google Maps</button>
+                    </div> */}
                 </div>
             </div>
         )
