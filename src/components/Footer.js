@@ -14,6 +14,10 @@ export default function Footer() {
             <div className="footer-right">
                 <a href='https://github.com/joshbolanos7'> Git Hub </a>
             </div>
+            <div>
+                <a href='https://sleepy-brook-05051.herokuapp.com/landmarks/'> Admin Login (CRUD Functions) </a>
+            </div>
+            
         </footer>
     )
 }
