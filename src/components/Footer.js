@@ -10,6 +10,10 @@ export default function Footer() {
 
                     <p class="footer-company-name">© 2021 NYC App</p>
             </div>
+
+            <div className="footer-right">
+                <a href='https://github.com/joshbolanos7'> Git Hub </a>
+            </div>
         </footer>
     )
 }

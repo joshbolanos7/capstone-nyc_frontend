@@ -1,3 +1,9 @@
+.Grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .landmarkShow{
     display: flex;
     justify-content: space-evenly;
@@ -9,15 +15,22 @@
         margin: 5px; 
         padding: 3px;
         
-
+    }
+    
+    .land_img{
+        img {
+            width: 400px;
+            height: 600px;
+        }
     }
 
     .showRight{
+        border: solid 1px blue;
         display: flex; 
         flex-direction: column;
         margin: 5px; 
         padding: 3px; 
-
+        max-width: 500px;
+    
     }
-
 }

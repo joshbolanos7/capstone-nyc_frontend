@@ -9,6 +9,11 @@ nav {
     border: solid 1px #3f71ae;
     font-size: 20px;
 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    // background-color: #33383b;
+
 
     .navLeft, .navRight { 
         display: flex; 
@@ -21,8 +26,16 @@ nav {
     }
 }
 
+.intro{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7px;
+    padding: 5px;
+}
+
 footer { 
     border: solid 1px #FF4500;
-    background-color: rgba(0, 0, 0, 0.7);
+    // background-color: rgba(0, 0, 0, 0.7);
     // opacity: 0.5;
 }

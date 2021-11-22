@@ -28,17 +28,18 @@ export default function Show(props) {
                             <img src={landmark.photo_url} />
                         </div>
                     </div>
-                </div>
 
-                <div className='showRight'>
-                    <div className='land_type'>
-                        <h3>{landmark.type}</h3>
-                    </div>
-                    <div className='land_address'>
-                        <h4>{landmark.address}</h4>
-                    </div>
-                    <div className='land_descrip'>
-                        <p>{landmark.description}</p>
+
+                    <div className='showRight'>
+                        <div className='land_type'>
+                            <h3>{landmark.type}</h3>
+                        </div>
+                        <div className='land_address'>
+                            <h4>Address: {landmark.address}</h4>
+                        </div>
+                        <div className='land_descrip'>
+                            <p>{landmark.description}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -49,6 +50,6 @@ export default function Show(props) {
         return <h1>Loading ... </h1>;
     };
 
-    return landmark ? loaded() : loading();
+    return landmark ? <div className='Grid'>{loaded()}</div> : loading();
 }
 
