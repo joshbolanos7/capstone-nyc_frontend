@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
-import { useNavigate } from "react-router";
+// import { useNavigate } from "react-router";
 
 import { getOneLandmarks } from "../services/landmarkService";
 
@@ -25,7 +25,7 @@ export default function Show(props) {
                         </div>
 
                         <div className='land_img'>
-                            <img src={landmark.photo_url} />
+                            <img src={landmark.photo_url} alt={landmark.name}/>
                         </div>
                     </div>
 
