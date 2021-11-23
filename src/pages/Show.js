@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 // import { useNavigate } from "react-router";
 
 import { getOneLandmarks } from "../services/landmarkService";
@@ -40,11 +41,15 @@ export default function Show(props) {
                         <div className='land_descrip'>
                             <p>{landmark.description}</p>
                         </div>
+
+                         <div className='maps-btn'>
+                             <p>Need help getting around? Click the button to show you the fastest way to get around the city and hopefully you don't get mugged!</p>
+                        <Link to={'/transportation'}>
+                        <button onClick="a href='https://maps.google.com';">Open MTA Transit Map</button>
+                        </Link>
+                    </div>
                     </div>
                     
-                    {/* <div className='maps-btn'>
-                        <button onClick="window.location.href='https://maps.google.com';">Open In Google Maps</button>
-                    </div> */}
                 </div>
             </div>
         )

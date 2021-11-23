@@ -5,11 +5,17 @@
 }
 
 .land-display { 
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
+    // display: flex; 
+    // flex-direction: column;
+    // justify-content: center;
+    // align-content: center;
+    display: inline-block;
+    flex-direction: row;
+    border: crimson 1px solid;
+    padding: 5px;
+    margin: 3px;
+    background-image: url("https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1523526551");
+    background-size: contain;
 
     // width: 250px;
     // height: 250px;

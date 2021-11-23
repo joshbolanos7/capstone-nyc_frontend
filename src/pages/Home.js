@@ -9,9 +9,9 @@ export default function Home(props) {
             </div>
             <div className='cardImgs'>
                 <div className="test-home">
-                    <h1>this is the home page</h1>
+                    <h1>Welcome to New York City!</h1>
 
-                    <img src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1523526551" alt='drawing-nyc-skyline' width='100%' height='100%' />
+                    {/* <img src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1523526551" alt='drawing-nyc-skyline' width='100%' height='100%' /> */}
                 </div>
 
                 <div className="buidings_card">
@@ -22,9 +22,9 @@ export default function Home(props) {
                 </div>
             </div>
             <div className='Intro'>
-                <p>
+                <h4>
                     In this app, you will learn about some of the iconic landmarks the great city of New York has to offer. From skyscrapers, to museums and parks as well. Take a trip and learn about some of the rich history that New York City has to offer. 
-                </p>
+                </h4>
             </div>
         </div>
     )

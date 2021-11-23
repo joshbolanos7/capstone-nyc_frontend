@@ -22,7 +22,7 @@ export default function Landmarks(props) {
                     {landmark.map((land, i) => {
                         return (
                             <div key={land.id}>
-                                <div className='land background'>
+                                <div className='land-background'>
                                     <Link to={`/landmarks/${land.id}`}>
                                         {/* <div className='landImgThumb' >
                                             <img src={land.photo_url} />

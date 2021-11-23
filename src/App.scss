@@ -11,6 +11,8 @@ nav {
     justify-content: space-between;
     border: solid 1px #3f71ae;
     font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -29,16 +31,47 @@ nav {
     }
 }
 
-.intro{
+.Intro{
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     margin: 7px;
     padding: 5px;
+    width: 60%;
 }
 
 footer { 
     border: solid 1px #FF4500;
-    // background-color: rgba(0, 0, 0, 0.7);
-    // opacity: 0.5;
+    background-image: url('https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1523526551') alt'skyline-outline';
+    background-size: contain;
+}
+
+.footer-left{
+    background-color: white;
+    border: solid 1px #3f71ae;
+}
+
+.footer-distributed{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px 30px 20px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-right,
+.footer-distributed .footer-admin,
+.footer-distributed .logos {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.footer-distributed .logos{
+    margin: 10px 15px;
+}
+
+.footer-distributed .logos{
+    display: inline-block;
+
 }
