@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";'
 
 
 export default function Home(props) {
@@ -26,6 +26,18 @@ export default function Home(props) {
                     In this app, you will learn about some of the iconic landmarks the great city of New York has to offer. From skyscrapers, to museums and parks as well. Take a trip and learn about some of the rich history that New York City has to offer. 
                 </h4>
             </div>
+
+            <div className='buildings_card'>
+                <img src='https://i.imgur.com/7ivoKxz.jpg'></img>
+            </div>
+
+            <div className='Intro'>
+                <h4>
+                    New York City is rich with history. With the list of landmarks in the webpage you will get a small taste of what shaped New York City to what it is today.    
+                </h4>
+            </div>
+
+
         </div>
     )
 }

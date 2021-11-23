@@ -14,18 +14,22 @@ export default function Footer() {
                     <a href='https://github.com/joshbolanos7'> Git Hub </a>
 
                     <a href='https://www.linkedin.com/in/joshua-bolanos7/'>Linkedin </a>
+
+                    <div className="footer-admin">
+                <a href='https://sleepy-brook-05051.herokuapp.com/landmarks/'> Admin Login (CRUD Functions) </a>
+            </div>
             </div>
 
-            <div className="footer-right">
-                {/* <a href='https://github.com/joshbolanos7'> Git Hub </a> */}
+            {/* <div className="footer-right">
+                <a href='https://github.com/joshbolanos7'> Git Hub </a> 
             </div>
             <div className="footer-admin">
                 <a href='https://sleepy-brook-05051.herokuapp.com/landmarks/'> Admin Login (CRUD Functions) </a>
-            </div>
+            </div> 
 
-            <div className='logos'>
+             <div className='logos'>
                 <img src='https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_New_York_City.svg' width='75px' height='50px'></img>
-            </div>
+            </div> */}
         </footer>
     )
 }
